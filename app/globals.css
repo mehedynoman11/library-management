@@ -17,6 +17,10 @@
   }
 } */
 
+.root-container{
+  @apply flex min-h-screen flex-1 flex-col bg-accent bg-cover bg-top px-5 w-xs;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
